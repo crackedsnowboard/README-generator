@@ -70,7 +70,7 @@ ${instal}
 ${usage}
 
 #### License
-${liscense}
+[![License](https://img.shields.io/badge/License%20${liscense}-1f425f.svg)](http://commonmark.org)
 
 #### Contributing
 ${contributing}
