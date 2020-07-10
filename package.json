@@ -1,7 +1,7 @@
 {
   "name": "static-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "Using node.js to create a good README.md file",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,16 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.0.0",
-    "inquirer": "^6.3.1"
-  }
+    "inquirer": "^6.5.2",
+    "requirer": "0.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crackedsnowboard/README-generator.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/crackedsnowboard/README-generator/issues"
+  },
+  "homepage": "https://github.com/crackedsnowboard/README-generator#readme"
 }
