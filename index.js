@@ -1,5 +1,5 @@
 const inquirer = require("inquirer");
-const util = require("inquirer");
+// const util = require("inquirer");
 const fs = require("fs")
 
 inquirer
@@ -7,56 +7,98 @@ inquirer
         {
             type: "input",
             message: "What is the Project Title?",
-            name: "name"
+            name: "title"
         },
         {
             type: "input",
             message: "What is the description?",
-            name: "name"
+            name: "description"
 
         },
         {
             type: "input",
             message: "What is the installation?",
-            name: "name"
+            name: "instal"
         },
         {
             type: "input",
             message: "What is the usage?",
-            name: "name"
+            name: "usage"
         },
         {
             type: "input",
             message: "What is the liscense?",
-            name: "name"
+            name: "liscense"
         },
         {
             type: "input",
             message: "Contributing?",
-            name: "name"
+            name: "contributing"
         },
         {
             type: "input",
             message: "Tests?",
-            name: "name"
+            name: "tests"
         },
         {
             type: "input",
             message: "Questions to add?",
-            name: "name"
+            name: "questions"
         }
+    ]).then(function (data) {
+        console.log(data);
+        var title = data.title;
+        var description = data.description;
+        var instal = data.instal;
+        var usage = data.usage;
+        var liscense = data.liscense;
+        var contributing = data.contributing;
+        var tests = data.tests;
+        var questions = data.questions;
+        var generator = `
+# Project ${title}
 
-    ])
+## Description 
+${description}
 
-const questions = [
+## Table of Contents
 
-];
+### Installation 
+${instal}
 
-function writeToFile(fileName, data) {
-}
+### Usage
+${usage}
 
-function init() {
+#### License
+${liscense}
 
-}
+#### Contributing
+${contributing}
 
-init();
+##### Tests
+${tests}
+
+##### Questions
+${questions}
+* User GitHub profile email
+* User Gitub email
+
+`;
+        fs.writeFile("README.md", generator, data, function (err) {
+            console.log("test writeFile");
+
+        })
+    });
+
+// const questions = [
+
+// ];
+
+// function writeToFile(fileName, data) {
+// }
+
+// function init() {
+
+// }
+
+// init();
