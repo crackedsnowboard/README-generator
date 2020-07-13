@@ -6,6 +6,11 @@ inquirer
     .prompt([
         {
             type: "input",
+            message: "What is your GitHub username?",
+            name: "name"
+        },
+        {
+            type: "input",
             message: "What is the Project Title?",
             name: "title"
         },
@@ -47,6 +52,7 @@ inquirer
         }
     ]).then(function (data) {
         console.log(data);
+        var name = data.name
         var title = data.title;
         var description = data.description;
         var instal = data.instal;
@@ -80,11 +86,13 @@ ${tests}
 
 ##### Questions
 ${questions}
-* User GitHub profile email
+
+##### Author
+* [![GitHub](https://github.com/${name})] 
 * User Gitub email
 
 `;
-        fs.writeFile("README.md", generator, data, function (err) {
+        fs.writeFile("goodREADME.md", generator, data, function (err) {
             console.log("test writeFile");
 
         })
