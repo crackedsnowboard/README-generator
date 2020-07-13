@@ -62,12 +62,22 @@ inquirer
         var tests = data.tests;
         var questions = data.questions;
         var generator = `
+
+Table of Contents
+[Title](#projects)
+[Description](#description)
+[Installation](#installation)
+[Usage](#usage)
+[License](#license)
+[Contributing](#contributing)
+[Tests](#tests)
+[Questions](#questions)
+[Author](#author)
+
 # Project ${title}
 
 ## Description 
 ${description}
-
-## Table of Contents
 
 ### Installation 
 ${instal}
