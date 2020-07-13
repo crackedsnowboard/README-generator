@@ -105,7 +105,7 @@ ${tests}
 
 
 ##### Author
-* [![GitHub](https://github.com/${name})] 
+* [GitHub](https://github.com/${name})
 * User Gitub email: ${email}
 * [![Profile](https://github.com/${name}.png?size=200)]
 
