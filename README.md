@@ -51,7 +51,8 @@ and File Service [FSwrite-node](https://nodejs.org/api/fs.html)
 
 #### GIF of Applicaton
 
-<img src="Assets/Animated-GIF-source.gif">
+![App](Assets/Animated-GIF-source.gif)
+
 
 #### Author Links
 [LinkedIn](linkedin.com/in/joel-mathen/) <br>
