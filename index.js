@@ -64,6 +64,7 @@ inquirer
         var generator = `
 
 Table of Contents
+
 [Title](#projects)
 
 [Description](#description)
