@@ -1,6 +1,7 @@
 
 
 Table of Contents
+
 [Title](#projects)
 
 [Description](#description)
@@ -17,31 +18,31 @@ Table of Contents
 
 [Author](#author)
 
-# Project y
+# Project yes
 
 ## Description 
-n
+k
 
 ### Installation 
-ks
+s
 
 ### Usage
 l
 
 #### License
-[![License](https://img.shields.io/badge/License%20ak-1f425f.svg)](http://commonmark.org)
+[![License](https://img.shields.io/badge/License%20a-1f425f.svg)](http://commonmark.org)
 
 #### Contributing
-l
+m
 
 ##### Tests
-n
+w
 
 ##### Questions
 
 
 ##### Author
 * [![GitHub](https://github.com/crackedsnowboard)] 
-* User Gitub email: dljfa@gmail.com
-* [![Profile](https://github.com/crackedsnowboard.png)]
+* User Gitub email: dkl@gmail.com
+* [![Profile](https://github.com/crackedsnowboard.png?size=200)]
 

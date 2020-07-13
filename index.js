@@ -107,7 +107,7 @@ ${tests}
 ##### Author
 * [![GitHub](https://github.com/${name})] 
 * User Gitub email: ${email}
-* [![Profile](https://github.com/${name}.png)]
+* [![Profile](https://github.com/${name}.png?size=200)]
 
 `;
         fs.writeFile("goodREADME.md", generator, data, function (err) {
@@ -116,15 +116,4 @@ ${tests}
         })
     });
 
-// const questions = [
 
-// ];
-
-// function writeToFile(fileName, data) {
-// }
-
-// function init() {
-
-// }
-
-// init();
