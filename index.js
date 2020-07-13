@@ -47,11 +47,11 @@ inquirer
         },
         {
             type: "input",
-            message: "Questions to add?",
-            name: "questions"
+            message: "What is your GitHub email?",
+            name: "email"
         }
     ]).then(function (data) {
-        console.log(data);
+        // console.log(data);
         var name = data.name
         var title = data.title;
         var description = data.description;
@@ -60,18 +60,24 @@ inquirer
         var liscense = data.liscense;
         var contributing = data.contributing;
         var tests = data.tests;
-        var questions = data.questions;
+        var email = data.email;
         var generator = `
 
 Table of Contents
 [Title](#projects)
+
 [Description](#description)
+
 [Installation](#installation)
+
 [Usage](#usage)
+
 [License](#license)
+
 [Contributing](#contributing)
+
 [Tests](#tests)
-[Questions](#questions)
+
 [Author](#author)
 
 # Project ${title}
@@ -95,15 +101,16 @@ ${contributing}
 ${tests}
 
 ##### Questions
-${questions}
+
 
 ##### Author
 * [![GitHub](https://github.com/${name})] 
-* User Gitub email
+* User Gitub email: ${email}
+* [![Profile](https://github.com/${name}.png)]
 
 `;
         fs.writeFile("goodREADME.md", generator, data, function (err) {
-            console.log("test writeFile");
+            // console.log("test writeFile");
 
         })
     });
