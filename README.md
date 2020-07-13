@@ -49,9 +49,9 @@ and File Service [FSwrite-node](https://nodejs.org/api/fs.html)
 ### Link to deployed README generator
 [README-Generator](https://github.com/crackedsnowboard/README-generator)
 
-#### Image of Deployed Web Applicaton
+#### GIF of Applicaton
 
-<iframe src="https://giphy.com/embed/MDs2pbkft5MUPFUQHU" width="456" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/MDs2pbkft5MUPFUQHU">via GIPHY</a></p>
+<img src="Assets/Animated-GIF-source.gif">
 
 #### Author Links
 [LinkedIn](linkedin.com/in/joel-mathen/) <br>
